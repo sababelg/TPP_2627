@@ -36,7 +36,7 @@
     }
     static void Main()
     {
-        Console.WriteLine("Hello, that is ATM program. Please type your ballance");
+        Console.WriteLine("\n\n\nHello, that is ATM program. Please type your ballance");
         int balance = int.Parse(Console.ReadLine());
         Console.WriteLine("Now, chose your currency (Ꝑ default):\n[1] $\n[2] €\n[3] £\n[4] ¥\n[5] ₹");
         char currency;
